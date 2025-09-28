@@ -31,9 +31,6 @@ if not gemini_client and not openai_client:
 API_MODELS = {
     # Gemini Models
     "Gemini 2.5 Flash (Default)": {"api": "gemini", "name": "gemini-2.5-flash"},
-    "Gemini 2.5 Pro": {"api": "gemini", "name": "gemini-2.5-pro"},
-
-    # OpenAI Models
     "GPT-4o Mini": {"api": "openai", "name": "gpt-4o-mini"},
     "GPT-3.5 Turbo": {"api": "openai", "name": "gpt-3.5-turbo"},
     "GPT-4o": {"api": "openai", "name": "gpt-4o"},
